@@ -1,0 +1,117 @@
+
+    
+.front {
+    background-color: gray;
+    background-size: cover;
+    padding-top: 0.5rem;
+    text-align: center;
+    padding-bottom: 5%;
+}
+/*ナビバー*/
+.navber {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(192, 192, 192,0.5);
+}
+.list {
+    display: inline-flex;
+    list-style: none; 
+}
+.nav-item {
+    padding: 15px;
+    font-size: 20px;
+}
+.e-mail {
+    color: blue;
+}
+
+.explain {
+    font-size: 1.4em;
+
+}
+#oowaku {
+    background-color: #99FFFF;
+    margin: 5%;
+    padding: 5%;
+  
+}
+.copyright {
+    text-align: center;
+}
+.footer-center{
+    padding: 50px;
+    background-color: coral;
+}
+
+/*写真*/
+#menu{
+    display: grid;
+    max-width: 1080px;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin: auto;
+    padding: 30px;
+
+}
+img{
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+/*ナイトモード*/
+#button1 {
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #FFF;
+    border-bottom: solid 2px #000;
+    border-radius: 25px;
+    position: relative;
+    color: blue;
+    
+
+    background: linear-gradient(
+    135deg,
+    transparent 0%,
+    transparent 50%,
+  #FFF 50%,
+  #777777 500%)
+  }
+.bottan1:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.dark {
+    background-color: black;
+}
+/*MP*/
+.about-sakuh {
+   
+}
+.games {
+    display: inline-flex;
+    width: 50%;
+    padding: 5%;
+}
+.simon {
+    background-color: #99FFFF;
+width: 50%;
+text-align: center;
+font-size: large;
+padding: 5%;
+margin: 5%;
+}
+.drum {
+    width: 50%;
+    text-align: center;
+    background-color: chocolate;
+    font-size: large;
+    padding: 5%;
+    margin: 5%;
+}
+
+
